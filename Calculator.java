@@ -254,7 +254,7 @@ public class Calculator extends JFrame implements ActionListener {
       } else {
         textfield.setText(Double.toString(result));
       }
-      label.setText("");
+      label.setText(num1+""+calculator+""+num2);
       num1 = result;
     }
   }
